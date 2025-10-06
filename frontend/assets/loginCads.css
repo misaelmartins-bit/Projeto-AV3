@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #EEAECA;
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 100%;
+}
+
+form{
+    background-color: #7c7c7c2d;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    width: 400px;
+}
+
+.form-h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    font-size: 21px;
+    margin-bottom: 2%;
+}
+
+label{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 3%;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 1px solid white;
+    outline: none;
+}
+
+input:focus{
+    border-color: aqua;
+    box-shadow: 0 0 10px aqua;
+}
+
+
+.bnt {
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.bnt button{
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background-color: blue;
+    color: white;
+    font-size: 17px;
+}
+
+.bnt button:hover{
+    background-color: rgb(9, 9, 198);
+    transition: 1s;
+    box-shadow: 0 0 10px rgb(9, 9, 198);
+}
+
+.opcao{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.opcao a {
+    text-decoration: none;
+    color: white;
+}
+
+.opcao a:hover{
+    text-decoration:underline;
+    color: blue ;
+}
